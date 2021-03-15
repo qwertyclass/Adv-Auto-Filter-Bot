@@ -341,7 +341,7 @@ async def auto_filter (bot, update):
 
         await bot.send_message(
             chat_id = update.chat.id,
-            text=f"Found {(len(results))} Results For Query: <code>{query}</code>",
+            text=f"<b>Here is the result for {message.text}\n\n<a href='https://t.me/joinchat/RwpRCOoynrc1YWQ1'>First Join Channel By Clicking Here And Then Click On The Buttons</a></b>\n\n<i>♻️ OPM Cinemas</i>",
             reply_markup=reply_markup,
             parse_mode="html",
             reply_to_message_id=update.message_id
